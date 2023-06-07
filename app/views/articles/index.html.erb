@@ -1,1 +1,6 @@
 <h1>This is a Blog application</h1>
+<h2> Our Articles</h2> 
+<% @articles.each do |article|%>
+    <%= article.title %>
+    <br>
+<% end %>
